@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gjs {
+    border: none;
+}
+
+/* primary background color */
+.gjs-one-bg {
+    background-color: rgb(240, 240, 240);
+}
+
+/* main text color */
+.gjs-two-color {
+    color: rgb(100, 100, 100);
+}
+
+/* secondary background color */
+.gjs-three-bg {
+    background-color: rgb(120, 120, 120);
+    color: white;
+}
+
+/* top bar active */
+.gjs-pn-btn.gjs-pn-active {
+    background-color: rgb(210, 210, 210);
+    box-shadow: none;
+}
+
+/* active text color */
+.gjs-four-color, 
+.gjs-four-color-h:hover {
+    color: rgb(80, 80, 80);
+}
+
+.gjs-cv-canvas {
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gjs-block {
+    width: auto;
+    height: auto;
+    min-height: auto;
+}
+
+.gjs-blocks-cs {
+    height: 100vh;
+}
+
+.panel__top {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: initial;
+    justify-content: center;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.panel__basic-actions {
+    position: static;
+}
+
+.editor-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 88vh;
+}
+  
+.editor-canvas {
+    flex-grow: 1;
+}
+  
+.panel__right {
+    flex-basis: 230px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.panel__switcher {
+    position: static;
+}
+
+.panel__devices {
+    position: static;
+}
+
+#blocks {
+    height: 7vh;
+}
