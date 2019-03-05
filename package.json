@@ -1,0 +1,25 @@
+{
+  "name": "mesh",
+  "version": "1.0.0",
+  "description": "Prototype Tool",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinhodev/mesh.git"
+  },
+  "author": "Pathfinder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinhodev/mesh/issues"
+  },
+  "homepage": "https://github.com/justinhodev/mesh#readme",
+  "dependencies": {
+    "grapesjs": "^0.14.52"
+  },
+  "devDependencies": {
+    "electron": "^4.0.6"
+  }
+}
