@@ -4,7 +4,7 @@
   "description": "Prototype Tool",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron ./src/main.js"
   },
   "repository": {
     "type": "git",

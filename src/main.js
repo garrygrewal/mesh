@@ -6,8 +6,8 @@ function createWindow() {
     // create electron window
     win = new BrowserWindow({ width: 1200, height: 800 });
 
-    // load main file
-    win.loadFile('index.html');
+    // load the index.html of the app.
+    win.loadURL('file://' + __dirname + '/index.html');
 
     // dereference window object when closed
     win.on('closed', () => {

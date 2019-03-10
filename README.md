@@ -32,8 +32,16 @@ npm start
 ## Authors
 
 [Garry Grewal](https://github.com/garrygrewal)
+
 [Jimmy Tse](https://github.com/jynds)
+
 [Justin Ho](https://github.com/justinhodev)
+
+## Built With
+
+[Electron](https://electronjs.org/)
+
+[GrapesJS](https://grapesjs.com/)
 
 ## License
 
